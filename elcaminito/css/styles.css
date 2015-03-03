@@ -3,7 +3,58 @@
 	padding: 0;
 }
 
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/Roboto-Thin-webfont.eot');
+    src: url('../fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Thin-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*Empiezan estilos del nav*/
+
+nav{
+	float: left;
+	vertical-align: middle;
+	width: 60%;
+}
 
 .navbar{
 	height: 40px;
@@ -18,11 +69,6 @@
 	width: 85px;
 }
 
-nav{
-	float: left;
-	width: 60%;
-}
-
 .navbar-menu li{
 	float: left;
 	list-style: none;
@@ -35,28 +81,104 @@ nav{
 }
 
 .navbar-menu li a{
+	color: #010101;
+	font-family: 'robotoregular';
+	font-size: 12px;
+	padding:  5px 10px 5px 10px;
 	text-decoration: none;
 	text-align: center;
+	text-transform: uppercase;
 	width: 100%;
+}
+
+.navbar-menu li a:hover{
+	text-decoration: underline;
 }
 
 /*HEADER*/
 
 header{
 	background:  #e1e1e1 url(../img/banner.jpg) no-repeat center 40px;
-	background-size: 100%;
-	height: 480px;
+	background-size: cover;
+	height: 700px;
 	padding-top: 40px;
 }
 
-header h1{
-	color: #f2f2f2;
-	margin: 0 auto;
-	position: absolute;
-	top: 240px;
+.header-container{
+	margin: 450px auto 0;
+	width: 1000px;
 }
 
-header p{
-	position: absolute;
+.header-container h1{
+	color: #f2f2f2;
+	font-size: 60px;
+	margin: 0 auto 20px;
+	text-transform: capitalize;
+	width: 1000px;
 }
+
+.header-container p{
+	color: #f2f2f2;
+	font-size: 48px;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+/*-----wrapper-----*/
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+/*-----about-----*/
+
+.about-container{
+	background-color: #ccc;
+	height: 300px;
+	width: 100%;
+}
+
+.aboutUs{
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 1000px;
+}
+
+.aboutUs h2{
+	width: 70%;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
